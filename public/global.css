@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'roboto', 'sans-serif';
+}
+
+.menu-closed {
+    display: none;
+}
+
+.menu-open {
+    display: flex;
+    transition:  2.3s ease;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    height: 50px;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+
+.burger-line {
+    border: 2px solid white;
+    margin-top: 8px;
+    transition: 0.4s;
+}
+
+.change-bar .bar1  {
+    width: 25px;
+    transform: translate(0, 13px) rotate(-45deg);
+}
+
+.change-bar .bar2 {
+
+    opacity: 0;
+}
+
+.change-bar .bar3 {
+    width: 25px;
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
